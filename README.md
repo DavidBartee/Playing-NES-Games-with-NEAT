@@ -6,7 +6,7 @@ The folders are not super intuitively named, as I had to type in commands to cha
 
 The other two folders contain the Gym Retro integration files, which includes savestates and info files that the Gym Retro library uses to get information from the games' RAM and determine the done condition for Zelda (the one for Mario is overridden by my scripts, so that death is detected instantly). **The code will not work without these files being updated in your Python environment!**
 
-Paste both folders into: %Python environment root%/Lib/site-packages/retro
+Paste both folders into: %Python environment root%/Lib/site-packages/retro/data/stable
 
 If pasting them doesn't work, you should see an error when you try to run the scripts (Mario might appear to work without issue if you're just running the playback script, but Zelda will definitely break). Also, it goes without saying that you need the ROMs for these games for any of this to run. For obvious legal reasons, those aren't provided here.
 

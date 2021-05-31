@@ -1,0 +1,34 @@
+$EB(235) World map position, x location + 0x10 * y location
+$12(18) Game mode:
+	0=Title/transitory    1=Selection Screen
+	5=Normal              6=Preparing Scroll
+	7=Scrolling           4=Finishing Scroll;
+	E=Registration        F=Elimination
+	17=dying
+	16=Entering cave
+	11=In cave
+	10=Exiting cave (from inside)
+	4=Exiting cave (from outside)
+$10(16) Current level (dungeon), 0 = overworld
+$657(1623) Current Sword, 0 = none
+Note: the heart values work in strange ways
+$66F(1647) Hearts
+$670(1648) Partial Hearts
+$70(112) x position
+$84(132) y position (note: 0 = top of screen)
+
+Coordinates for objectives (local; world):
+1st cave: 64,77; 7,7
+Sword: 112,213; 7,7
+Exit cave: 120,221; 7,7
+
+---Path to level 1 in detail---
+xPos: 128, yPos: 61, wX: 7, wY: 7
+xPos: 240, yPos: 141, wX: 7, wY: 6
+xPos: 48, yPos: 61, wX: 8, wY: 6
+xPos: 112, yPos: 61, wX: 8, wY: 5
+xPos: 112, yPos: 61, wX: 8, wY: 4
+Bridge: xPos: 0, yPos: 133, wX: 8, wY: 3
+
+Level 1: 112, 125; 7,3
+(Not used) first left room in dungeon: xPos: 0, yPos: 141, wX: 3, wY: 7

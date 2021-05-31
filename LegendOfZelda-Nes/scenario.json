@@ -1,0 +1,17 @@
+{
+  "done": {
+    "variables": {
+      "gameMode": {
+        "op": "equal",
+        "reference": 17
+      }
+    }
+  },
+  "reward": {
+    "variables": {
+      "gameMode": {
+        "reward": 0
+      }
+    }
+  }
+}
